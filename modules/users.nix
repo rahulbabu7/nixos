@@ -45,7 +45,7 @@
       emacs
       lazygit
       btop
-      nvtop
+#       nvtop
     ];
   };
 }
