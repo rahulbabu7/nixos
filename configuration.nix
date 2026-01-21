@@ -4,7 +4,7 @@
 {
   imports =
     [
-      ./hardware-configuration.nix
+      /etc/nixos/hardware-configuration.nix
       ./modules/boot.nix
       ./modules/networking.nix
       ./modules/locale.nix
