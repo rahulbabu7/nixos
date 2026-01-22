@@ -15,7 +15,7 @@
       ./modules/garbage.nix
       # ./modules/git.nix
       ./modules/users.nix
-      ./modules/nvidia.nix
+      # ./modules/nvidia.nix
     ];
 
 

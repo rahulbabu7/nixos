@@ -1,4 +1,9 @@
-{ config, pkgs, nixpkgs-unstable, ... }:
+{
+  config,
+  pkgs,
+  nixpkgs-unstable,
+  ...
+}:
 
 {
   imports = [
@@ -36,7 +41,7 @@
       fd
       lazygit
       # emacs
-
+      home-manager
       # Wayland tools
       wl-clipboard
       wl-clipboard-x11
@@ -75,7 +80,7 @@
   # Global Catppuccin theme
   catppuccin = {
     enable = true;
-    flavor = "mocha";  # Change to "latte" for light theme
+    flavor = "mocha"; # Change to "latte" for light theme
     accent = "blue";
   };
 
