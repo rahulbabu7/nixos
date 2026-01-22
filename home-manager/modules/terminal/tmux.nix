@@ -3,7 +3,7 @@
 {
   programs.tmux = {
     enable = true;
-    catppuccin.enable = true;
+    # catppuccin.enable = true;
     prefix = "C-a";
     mouse = true;
     baseIndex = 1;

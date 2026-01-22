@@ -3,7 +3,7 @@
 {
   services.mako = {
     enable = true;
-    catppuccin.enable = true;
+    # catppuccin.enable = true;
     defaultTimeout = 5000;
     groupBy = "app-name";
     maxVisible = 5;

@@ -22,14 +22,14 @@
   services.libinput.enable = true;
 
   # XDG portals for Wayland
-  xdg.portal = {
-    enable = true;
-    extraPortals = with pkgs; [
-#       xdg-desktop-portal-gtk
-#       xdg-desktop-portal-gnome
-       xdg-desktop-portal-kde
-    ];
-  };
+#   xdg.portal = {
+#     enable = true;
+#     extraPortals = with pkgs; [
+# #       xdg-desktop-portal-gtk
+# #       xdg-desktop-portal-gnome
+#        xdg-desktop-portal-kde
+#     ];
+#   };
 
   # Graphics
   hardware.graphics = {

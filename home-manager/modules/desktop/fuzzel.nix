@@ -3,7 +3,6 @@
 {
   programs.fuzzel = {
     enable = true;
-    catppuccin.enable = true;
 
     settings = {
       main = {

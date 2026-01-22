@@ -38,7 +38,7 @@
                   home-manager.useUserPackages = true;
 
                   # Import catppuccin module for home-manager
-                  home-manager.sharedModules = [ catppuccin.homeManagerModules.catppuccin ];
+                  home-manager.sharedModules = [ catppuccin.homeModules.catppuccin ];
 
                   # User configuration
                   home-manager.users.rahul = import ./home-manager/home.nix;
