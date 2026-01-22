@@ -44,19 +44,19 @@
     nodePackages.js-beautify
   ];
 
-  home.activation.installDoomEmacs = lib.hm.dag.entryAfter [ "writeBoundary" ] ''
-    if [ ! -x "$HOME/.emacs.d/bin/doom" ]; then
-      echo "Installing Doom Emacs..."
-      rm -rf "$HOME/.emacs.d"
+  # home.activation.installDoomEmacs = lib.hm.dag.entryAfter [ "writeBoundary" ] ''
+  #   if [ ! -x "$HOME/.emacs.d/bin/doom" ]; then
+  #     echo "Installing Doom Emacs..."
+  #     rm -rf "$HOME/.emacs.d"
 
-      ${pkgs.git}/bin/git clone --depth 1 \
-        https://github.com/doomemacs/doomemacs \
-        "$HOME/.emacs.d"
+  #     ${pkgs.git}/bin/git clone --depth 1 \
+  #       https://github.com/doomemacs/doomemacs \
+  #       "$HOME/.emacs.d"
 
-      EMACS=${pkgs.emacs30-pgtk}/bin/emacs \
-        "$HOME/.emacs.d/bin/doom" install --no-env --no-fonts
-    fi
-  '';
+  #     EMACS=${pkgs.emacs30-pgtk}/bin/emacs \
+  #       "$HOME/.emacs.d/bin/doom" install --no-env --no-fonts
+  #   fi
+  # '';
 
   # Link to your existing Doom config in ~/Config
   home.file.".doom.d".source =
