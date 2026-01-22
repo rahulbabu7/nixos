@@ -35,7 +35,7 @@
       ripgrep
       fd
       lazygit
-      emacs
+      # emacs
 
       # Wayland tools
       wl-clipboard
