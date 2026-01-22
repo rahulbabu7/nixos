@@ -7,7 +7,7 @@
     extraPackages = epkgs: with epkgs; [
       vterm
       pdf-tools
-      xclip
+      # xclip
     ];
   };
 
