@@ -50,8 +50,8 @@
       pavucontrol
 
       # Wallpaper tools
-      swaybg
-      swaylock
+      # swaybg
+      # swaylock
 
       # Fonts
       (nerdfonts.override { fonts = [ "JetBrainsMono" "FiraCode" ]; })
