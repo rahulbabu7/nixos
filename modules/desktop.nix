@@ -27,7 +27,7 @@
     extraPortals = with pkgs; [
 #       xdg-desktop-portal-gtk
 #       xdg-desktop-portal-gnome
-#        xdg-desktop-portal-kde
+       xdg-desktop-portal-kde
     ];
   };
 
@@ -40,11 +40,11 @@
   # DBus (required for desktop environments)
   services.dbus.enable = true;
 
-  # Fonts
-  fonts.packages = with pkgs; [
-    noto-fonts
-    noto-fonts-color-emoji
-    liberation_ttf
-    fira-code
-  ];
+  # # Fonts
+  # fonts.packages = with pkgs; [
+  #   noto-fonts
+  #   noto-fonts-color-emoji
+  #   liberation_ttf
+  #   fira-code
+  # ];
 }

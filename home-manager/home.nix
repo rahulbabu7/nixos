@@ -9,11 +9,11 @@
     ./modules/terminal/kitty.nix
     ./modules/terminal/tmux.nix
     ./modules/desktop/kde.nix
-    ./modules/desktop/niri.nix
-    ./modules/desktop/waybar.nix
-    ./modules/desktop/mako.nix
-    ./modules/desktop/fuzzel.nix
-    ./modules/scripts/default.nix
+    # ./modules/desktop/niri.nix
+    # ./modules/desktop/waybar.nix
+    # ./modules/desktop/mako.nix
+    # ./modules/desktop/fuzzel.nix
+    # ./modules/scripts/default.nix
   ];
 
   home = {

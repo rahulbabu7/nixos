@@ -13,7 +13,7 @@
       ./modules/desktop.nix
       ./modules/flatpak.nix
       ./modules/garbage.nix
-      ./modules/git.nix
+      # ./modules/git.nix
       ./modules/users.nix
       ./modules/nvidia.nix
     ];
