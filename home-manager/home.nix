@@ -48,7 +48,7 @@
       playerctl
       brightnessctl
       pavucontrol
-
+      home-manager
       # Wallpaper tools
       # swaybg
       # swaylock
